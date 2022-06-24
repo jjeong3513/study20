@@ -38,7 +38,7 @@ function App() {
          newTodos.splice(index,1) //인덱스부터 한개까지 삭제된 배열 리턴   
          setTodos(newTodos) 
          if(index===selectedTodoIndex){
-           selectedTodoIndex(0);
+           setSelectedTodoIndex(0);
          }   
      }
   return (
